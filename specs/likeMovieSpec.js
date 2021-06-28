@@ -68,7 +68,7 @@ it('should not add a movie again when its already liked', async () => {
   FavoriteMovieIdb.deleteMovie(1);
 });
 
-xit('should not add a movie when it has no id', async () => {
+it('should not add a movie when it has no id', async () => {
   await LikeButtonInitiator.init({
     likeButtonContainer: document.querySelector('#likeButtonContainer'),
     movie: {},
